@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page Title</title> 
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="nav-link-wrapper">
+                    <a href="index.html">Home</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="about.html">About</a>
+                </div>
+            </div>
+
+            <div class="right-side">
+                <div class="brand">
+                    <div>Rory Gooderick</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-wrapper">
+            <div class="portfolio-items-wrapper">
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/eclairs.JPG)"></div>
+               
+                    <div class="img-text-wrapper">
+                        <div class="subtitle">
+                            Eclairs
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/peanutbutter.jpg)"></div>
+               
+                    <div class="img-text-wrapper">
+                        <div class="subtitle">
+                            Dominique Ansel's Peanut Butter Mousse Cake
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/croissants.jpg)"></div>
+               
+                    <div class="img-text-wrapper">
+                        <div class="subtitle">
+                            Croissants
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/cinnamonbuns.jpg)"></div>
+               
+                    <div class="img-text-wrapper">
+                        <div class="subtitle">
+                            Cinnamon Buns
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/IMG_0989.jpg)"></div>
+               
+                    <div class="img-text-wrapper">
+                        <div class="subtitle">
+                            Chocolate Loaf
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/macaron.jpg)"></div>
+               
+                    <div class="img-text-wrapper">
+                        <div class="subtitle">
+                            Macarons
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/chocolatebabka.jpg)"></div>
+               
+                    <div class="img-text-wrapper">
+                        <div class="subtitle">
+                            Chocolate Babka
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/bananaloaf.jpg)"></div>
+               
+                    <div class="img-text-wrapper">
+                        <div class="subtitle">
+                            Banana Loaf
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/victoriasponge.jpg)"></div>
+               
+                    <div class="img-text-wrapper">
+                        <div class="subtitle">
+                            Victoria Sponge
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/mincepies.JPG)"></div>
+               
+                    <div class="img-text-wrapper">
+                        <div class="subtitle">
+                            Mince Pies
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/parisbrest.JPG)"></div>
+               
+                    <div class="img-text-wrapper">
+                        <div class="subtitle">
+                            Paris Brest
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item-wrapper">
+                    <div class="portfolio-img-background" style="background-image:url(images/peartart.jpg)"></div>
+               
+                    <div class="img-text-wrapper">
+                        <div class="subtitle">
+                            Almond Pear Tart
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+</body>
+
+<script>
+    const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper')
+    
+    portfolioItems.forEach(portfolioItem => {
+        portfolioItem.addEventListener('mouseover', () => {
+            console.log(portfolioItem.childNodes[1].classlist);
+            portfolioItem.childNodes[1].classList.add('img-darken');
+        })
+
+        portfolioItem.addEventListener('mouseout', () => {
+            console.log(portfolioItem.childNodes[1].classlist);
+            portfolioItem.childNodes[1].classList.remove('img-darken');
+        })
+    })
+</script>
+
+</html>
