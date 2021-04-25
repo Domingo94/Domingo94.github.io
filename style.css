@@ -133,20 +133,19 @@ section#whatisanafm {
  
  section#whatisanafm h1{
     padding: 15% 15% 5% 15%;
-    font-size: 3vw;
+    font-size: 6vh;
     text-decoration: none;
     color: rgb(179, 36, 36);
  }
  
  section#whatisanafm ul{
-    display: block;
-    font-size: 1.7vw;
+    font-size: 4vh;
     padding-left: 100px; 
     color: rgb(0, 0, 0);
  }
 
 section#whatisanafm ul li{
-    padding: 0 0 50px 0;
+    padding: 0 0 5% 0;
  }
 
 .divwhatisanafm{
@@ -163,14 +162,14 @@ section#whatisanafm ul li{
 }
 
  .titanium{
-    height: 40%;
-    width: 60%;
+    height: 200px;
+    width: 300px;
     padding-top: 5%;
  }
 
 .afmsetup{
-    height: 40%;
-    width: 60%;
+    height: 200px;
+    width: 300px;
 }
 
 /* Section Problems */
@@ -186,17 +185,15 @@ section#problems {
 
 section#problems h1{
     padding: 15% 15% 5% 15%;
-    font-size: 3vw;
+    font-size: 6vh;
     text-decoration: none;
     color: rgb(218, 180, 180);
  }
  
  section#problems ul{
-    display: block;
-    font-size: 1.7vw;
-    padding-left: 150px; 
+    font-size: 4vh;
+    padding-left: 15%; 
     color: rgb(0, 0, 0);
-    width: 700px;
  }
 
  section#problems ul li{
@@ -215,7 +212,7 @@ section#problems h1{
 }
 
 .nanolithography{
-    height: 50%;
+    height: 250px;
 }
 
 
@@ -231,21 +228,21 @@ section#enclosure {
  }
  
  section#enclosure h1{
-    padding: 10% 5% 5% 15%;
-    font-size: 3vw;
+    padding: 15% 5% 5% 15%;
+    font-size: 6vh;
     text-decoration: none;
     color: rgb(134, 40, 40);
  }
  
  section#enclosure ul{
     display: block;
-    font-size: 1.7vw;
+    font-size: 4vh;
     padding-left: 15%; 
     color: rgb(0, 0, 0);
  }
 
 section#enclosure ul li{
-    padding: 0 0 50px 0;
+    padding: 0 0 5% 0;
  }
 
 .divenclosure{
@@ -258,17 +255,17 @@ section#enclosure ul li{
     display: flex;
     flex-direction: column;
     padding: 10% 0 0 0%;
-    width: 40%;
+    width: 50%;
 }
 
 .enclosuresketch{
     display: flex;
-    height: 30%;
+    height: 150px;
     justify-content: center;
 }
 .enclosure1{
     padding-right: 3%;
-    width: 12vw;
+    width: 200px;
 }
 
 .enclosurefinished{
@@ -279,11 +276,11 @@ section#enclosure ul li{
 }
 
 .enclosure4{
-    height: 12vw;
+    height: 200px;
  }
 
  .enclosure5{
-    height: 12vw;
+    height: 200px;
     padding-left: 5%;
  }
 
@@ -300,14 +297,14 @@ section#environmentalcontrol {
  
  section#environmentalcontrol h1{
     padding: 15% 5% 5% 15%;
-    font-size: 3vw;
+    font-size: 6vh;
     text-decoration: none;
     color: rgb(134, 40, 40);
  }
  
  section#environmentalcontrol ul{
     display: block;
-    font-size: 1.7vw;
+    font-size: 4vh;
     padding-left: 15%; 
     color: rgb(0, 0, 0);
  }
@@ -330,13 +327,13 @@ section#environmentalcontrol ul li{
 }
 
 .humiditycontroller{
-    height: 40%;
-    width: 55%;
+    height: 200px;
+    width: 300px;
 }
 
  .wholesetup{
-    height: 40%;
-    width: 55%;
+    height: 200px;
+    width: 300px;
     padding-top: 5%;
  }
 
@@ -355,20 +352,20 @@ section#obstacles {
  
  section#obstacles h1{
     padding: 15% 5% 5% 15%;
-    font-size: 3vw;
+    font-size: 6vh;
     text-decoration: none;
     color: rgb(179, 36, 36);
  }
  
  section#obstacles ul{
     display: block;
-    font-size: 1.7vw;
+    font-size: 4vh;
     padding-left: 15%; 
     color: rgb(0, 0, 0);
  }
 
 section#obstacles ul li{
-    padding: 0 0 50px 0;
+    padding: 0 0 5% 0;
  }
 
 .divobstacles{
@@ -385,14 +382,14 @@ section#obstacles ul li{
 }
 
 .blocksketch{
-    height: 50%;
-    width: 60%;
+    height: 200px;
+    width: 300px;
 }
 
  .blockfinished{
-    height: 50%;
-    width: 60%;
-    padding-top: 50px;
+    height: 220px;
+    width: 300px;
+    padding-top: 5%;
  }
 
   /* Section do differently */
@@ -408,20 +405,20 @@ section#obstacles ul li{
  
  section#dodifferently h1{
     padding: 15% 5% 5% 15%;
-     font-size: 3vw;
+     font-size: 6vh;
      text-decoration: none;
      color: rgb(218, 180, 180);
   }
   
   section#dodifferently ul{
      display: block;
-     font-size: 1.7vw;
+     font-size: 4vh;
      padding-left: 15%; 
      color: rgb(0, 0, 0);
   }
  
   section#dodifferently ul li{
-     padding: 0 0 50px 0;
+     padding: 0 0 5% 0;
   }
  
  .divdodifferently{
@@ -436,32 +433,5 @@ section#obstacles ul li{
 }
 
  .requirements{
-     height: 50%;
+     height: 300px;
  }
-
-/* Section Gallery */
-
-section#gallery {
-    width: 100%;
-    height: 100vh;
-    scroll-snap-align: center;
-    background-color: rgb(168, 209, 243);
- }
-
-.galleryimages{
-    display: flex;
-    justify-content: center;
-    padding: 10%;
-}
-
- .entiresetup{
-     height: 20vw;
-     padding-top: 5%;
- }
-
- .report{
-    height: 30vw;
-    padding-left: 50px;
-}
-
- 
